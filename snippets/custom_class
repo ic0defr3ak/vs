@@ -19,7 +19,7 @@
       </Declarations>
       <Code Language="csharp">
         <![CDATA[
-        public void $name$()
+        public void $name$
         {
             #region Members
             #endregion 
