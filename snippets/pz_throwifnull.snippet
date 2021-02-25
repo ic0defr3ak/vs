@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Throw if null!</Title>
+            <Author>Peter Zay</Author>
+            <Description>Parameter initialization with additional null chech and exception throw.</Description>
+            <Shortcut>pz_throwifnull</Shortcut>
+        </Header>
+        <Snippet>
+            <Code Language="CSharp">
+                <![CDATA[
+                    $PropertyName$ = $Param$ ?? throw new ArgumentNullException(nameof($Param$));
+                ]]>
+            </Code>
+            <Declarations>
+                <Literal>
+                    <ID>PropertyName</ID>
+                    <ToolTip>The property to initialize.</ToolTip>
+                    <Default>ParamName</Default>
+                </Literal>
+                <Literal>
+                    <ID>Param</ID>
+                    <ToolTip>The param to check if null.</ToolTip>
+                    <Default>param</Default>
+                </Literal>
+            </Declarations>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>
