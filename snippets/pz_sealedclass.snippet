@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+    xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Sealed Class Template</Title>
+      <Shortcut>pz_sealedclass</Shortcut>
+      <Author>Peter Zay</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      
+      <Code Language="CSharp">
+        <![CDATA[
+        public sealed class $Name$
+        {
+            #region Members
+            #endregion 
+
+            #region Properties
+            #endregion 
+
+            #region Constructor
+
+            public $Name$()
+            {
+            }
+
+            #endregion 
+        }
+        ]]>
+      </Code>
+
+      <Declarations>
+        <Literal>
+          <ID>Name</ID>
+          <ToolTip>Replace with the name of the action</ToolTip>
+          <Default>ClassName</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
