@@ -53,3 +53,13 @@ GhostDoc is a Visual Studio extension for developers who need to Generate XML Co
 
 ---
 
+## [NSubstitute](https://www.nuget.org/packages/NSubstitute)
+*creator: Anthony Egerton, David Tchepak, Alexandr Nikitin, Alex Povar*
+
+NSubstitute is a friendly substitute for .NET mocking libraries. It has a simple, succinct syntax to help developers write clearer tests. NSubstitute is designed for Arrange-Act-Assert (AAA) testing and with Test Driven Development (TDD) in mind.
+
+**Package Manager:**
+> Install-Package NSubstitute    
+> Install-package NSubstitute.Analyzers.CSharp // optional
+
+Documentation: [Getting-Started](https://nsubstitute.github.io/help/getting-started/)
