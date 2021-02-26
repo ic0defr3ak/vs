@@ -63,3 +63,13 @@ NSubstitute is a friendly substitute for .NET mocking libraries. It has a simple
 > Install-package NSubstitute.Analyzers.CSharp // optional
 
 Documentation: [Getting-Started](https://nsubstitute.github.io/help/getting-started/)
+
+## AutoFixture
+*creator: AutoFixture*
+
+AutoFixture makes it easier for developers to do Test-Driven Development by automating non-relevant Test Fixture Setup, allowing the Test Developer to focus on the essentials of each test case.
+
+**Package Manager:**
+> Install-Package AutoFixture
+
+[Cheat Sheet](https://github.com/AutoFixture/AutoFixture/wiki/Cheat-Sheet)
