@@ -3,6 +3,13 @@ This file contains the list of all the useful extensions that I use for coding i
 
 ---
 
+## [File Icons](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.FileIcons)
+*creator: Mads Kristensen*
+
+Adds icons for files that are not recognized by Solution Explorer
+
+---
+
 ## [Add New File](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.AddNewFile)
 *creator: Mads Kristensen*
 
